@@ -1,0 +1,451 @@
+Command: D
+
+Chain 0: 
+   Plate: HLC3177, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1133401569,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+   Plate: GER9006, State: NY, Tickets: 1, Total: $95
+      Ticket #0001: 1131610520,07/02/2018,(17) $ 95 NO STANDING-EXC. AUTH. VEHICLE
+   Plate: GTR7949, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1130964875,06/08/2018,(24) $ 65 NO PARKING-EXC. AUTH. VEHICLE
+   Plate: HXM7361, State: NY, Tickets: 1, Total: $115
+      Ticket #0001: 1121274900,06/28/2018,(46) $115 DOUBLE PARKING
+Chain 1: 
+   Plate: HZJ8359, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1133401636,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+   Plate: HDG7076, State: NY, Tickets: 1, Total: $95
+      Ticket #0001: 1131599342,06/29/2018,(17) $ 95 NO STANDING-EXC. AUTH. VEHICLE
+Chain 2: 
+   Plate: HPC9135, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1133401594,07/02/2019,(21) $ 65 NO PARKING-STREET CLEANING
+   Plate: HZN6473, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1133401570,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+   Plate: GLS6001, State: NY, Tickets: 3, Total: $345
+      Ticket #0001: 1105232165,07/03/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
+      Ticket #0002: 1105232166,07/04/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
+      Ticket #0003: 1105232167,07/05/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
+Command: V
+
+Total vehicles in database: 9
+Total tickets in database: 11
+Longest hash chain in database index number: 0 Length: 4
+Shortest hash chain in database index number: 1 Length: 2
+Total of all unpaid fines in the database: $975
+Command: L
+
+Most tickets Plate: GLS6001, State: NY tickets: 3, total fine: $345
+Largest fine Plate: GLS6001, State: NY tickets: 3, total fine: $345
+Command: F GLS6001 NY
+
+   Plate: GLS6001, State: NY, Tickets: 3, Total: $345
+      Ticket #0001: 1105232165,07/03/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
+      Ticket #0002: 1105232166,07/04/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
+      Ticket #0003: 1105232167,07/05/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
+Command: F HPC9135 NY
+
+   Plate: HPC9135, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1133401594,07/02/2019,(21) $ 65 NO PARKING-STREET CLEANING
+Command: P GLS6001 NY 1105232166
+
+Plate: GLS6001, State NY, Summons 1105232166 paid
+Command: D
+
+Chain 0: 
+   Plate: HLC3177, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1133401569,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+   Plate: GER9006, State: NY, Tickets: 1, Total: $95
+      Ticket #0001: 1131610520,07/02/2018,(17) $ 95 NO STANDING-EXC. AUTH. VEHICLE
+   Plate: GTR7949, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1130964875,06/08/2018,(24) $ 65 NO PARKING-EXC. AUTH. VEHICLE
+   Plate: HXM7361, State: NY, Tickets: 1, Total: $115
+      Ticket #0001: 1121274900,06/28/2018,(46) $115 DOUBLE PARKING
+Chain 1: 
+   Plate: HZJ8359, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1133401636,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+   Plate: HDG7076, State: NY, Tickets: 1, Total: $95
+      Ticket #0001: 1131599342,06/29/2018,(17) $ 95 NO STANDING-EXC. AUTH. VEHICLE
+Chain 2: 
+   Plate: HPC9135, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1133401594,07/02/2019,(21) $ 65 NO PARKING-STREET CLEANING
+   Plate: HZN6473, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1133401570,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+   Plate: GLS6001, State: NY, Tickets: 2, Total: $230
+      Ticket #0001: 1105232165,07/03/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
+      Ticket #0002: 1105232167,07/05/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
+Command: V
+
+Total vehicles in database: 9
+Total tickets in database: 10
+Longest hash chain in database index number: 0 Length: 4
+Shortest hash chain in database index number: 1 Length: 2
+Total of all unpaid fines in the database: $860
+Command: L
+
+Most tickets Plate: GLS6001, State: NY tickets: 2, total fine: $230
+Largest fine Plate: GLS6001, State: NY tickets: 2, total fine: $230
+Command: P GTR7949 NY 1130964875
+
+Plate: GTR7949, State NY, Summons 1130964875 paid
+Command: D
+
+Chain 0: 
+   Plate: HLC3177, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1133401569,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+   Plate: GER9006, State: NY, Tickets: 1, Total: $95
+      Ticket #0001: 1131610520,07/02/2018,(17) $ 95 NO STANDING-EXC. AUTH. VEHICLE
+   Plate: HXM7361, State: NY, Tickets: 1, Total: $115
+      Ticket #0001: 1121274900,06/28/2018,(46) $115 DOUBLE PARKING
+Chain 1: 
+   Plate: HZJ8359, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1133401636,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+   Plate: HDG7076, State: NY, Tickets: 1, Total: $95
+      Ticket #0001: 1131599342,06/29/2018,(17) $ 95 NO STANDING-EXC. AUTH. VEHICLE
+Chain 2: 
+   Plate: HPC9135, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1133401594,07/02/2019,(21) $ 65 NO PARKING-STREET CLEANING
+   Plate: HZN6473, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1133401570,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+   Plate: GLS6001, State: NY, Tickets: 2, Total: $230
+      Ticket #0001: 1105232165,07/03/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
+      Ticket #0002: 1105232167,07/05/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
+Command: L
+
+Most tickets Plate: GLS6001, State: NY tickets: 2, total fine: $230
+Largest fine Plate: GLS6001, State: NY tickets: 2, total fine: $230
+Command: V
+
+Total vehicles in database: 8
+Total tickets in database: 9
+Longest hash chain in database index number: 0 Length: 3
+Shortest hash chain in database index number: 1 Length: 2
+Total of all unpaid fines in the database: $795
+Command: P GTR7949 NY 1130964875
+
+Plate: GTR7949, State NY, Summons 1130964875 not found
+Command: D
+
+Chain 0: 
+   Plate: HLC3177, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1133401569,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+   Plate: GER9006, State: NY, Tickets: 1, Total: $95
+      Ticket #0001: 1131610520,07/02/2018,(17) $ 95 NO STANDING-EXC. AUTH. VEHICLE
+   Plate: HXM7361, State: NY, Tickets: 1, Total: $115
+      Ticket #0001: 1121274900,06/28/2018,(46) $115 DOUBLE PARKING
+Chain 1: 
+   Plate: HZJ8359, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1133401636,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+   Plate: HDG7076, State: NY, Tickets: 1, Total: $95
+      Ticket #0001: 1131599342,06/29/2018,(17) $ 95 NO STANDING-EXC. AUTH. VEHICLE
+Chain 2: 
+   Plate: HPC9135, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1133401594,07/02/2019,(21) $ 65 NO PARKING-STREET CLEANING
+   Plate: HZN6473, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1133401570,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+   Plate: GLS6001, State: NY, Tickets: 2, Total: $230
+      Ticket #0001: 1105232165,07/03/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
+      Ticket #0002: 1105232167,07/05/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
+Command: V
+
+Total vehicles in database: 8
+Total tickets in database: 9
+Longest hash chain in database index number: 0 Length: 3
+Shortest hash chain in database index number: 1 Length: 2
+Total of all unpaid fines in the database: $795
+Command: L
+
+Most tickets Plate: GLS6001, State: NY tickets: 2, total fine: $230
+Largest fine Plate: GLS6001, State: NY tickets: 2, total fine: $230
+Command: P HXM7361 NY 1121274900
+
+Plate: HXM7361, State NY, Summons 1121274900 paid
+Command: D
+
+Chain 0: 
+   Plate: HLC3177, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1133401569,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+   Plate: GER9006, State: NY, Tickets: 1, Total: $95
+      Ticket #0001: 1131610520,07/02/2018,(17) $ 95 NO STANDING-EXC. AUTH. VEHICLE
+Chain 1: 
+   Plate: HZJ8359, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1133401636,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+   Plate: HDG7076, State: NY, Tickets: 1, Total: $95
+      Ticket #0001: 1131599342,06/29/2018,(17) $ 95 NO STANDING-EXC. AUTH. VEHICLE
+Chain 2: 
+   Plate: HPC9135, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1133401594,07/02/2019,(21) $ 65 NO PARKING-STREET CLEANING
+   Plate: HZN6473, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1133401570,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+   Plate: GLS6001, State: NY, Tickets: 2, Total: $230
+      Ticket #0001: 1105232165,07/03/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
+      Ticket #0002: 1105232167,07/05/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
+Command: V
+
+Total vehicles in database: 7
+Total tickets in database: 8
+Longest hash chain in database index number: 2 Length: 3
+Shortest hash chain in database index number: 0 Length: 2
+Total of all unpaid fines in the database: $680
+Command: L
+
+Most tickets Plate: GLS6001, State: NY tickets: 2, total fine: $230
+Largest fine Plate: GLS6001, State: NY tickets: 2, total fine: $230
+Command: P GLS6001 NY 1105232165
+
+Plate: GLS6001, State NY, Summons 1105232165 paid
+Command: D
+
+Chain 0: 
+   Plate: HLC3177, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1133401569,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+   Plate: GER9006, State: NY, Tickets: 1, Total: $95
+      Ticket #0001: 1131610520,07/02/2018,(17) $ 95 NO STANDING-EXC. AUTH. VEHICLE
+Chain 1: 
+   Plate: HZJ8359, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1133401636,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+   Plate: HDG7076, State: NY, Tickets: 1, Total: $95
+      Ticket #0001: 1131599342,06/29/2018,(17) $ 95 NO STANDING-EXC. AUTH. VEHICLE
+Chain 2: 
+   Plate: HPC9135, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1133401594,07/02/2019,(21) $ 65 NO PARKING-STREET CLEANING
+   Plate: HZN6473, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1133401570,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+   Plate: GLS6001, State: NY, Tickets: 1, Total: $115
+      Ticket #0001: 1105232167,07/05/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
+Command: V
+
+Total vehicles in database: 7
+Total tickets in database: 7
+Longest hash chain in database index number: 2 Length: 3
+Shortest hash chain in database index number: 0 Length: 2
+Total of all unpaid fines in the database: $565
+Command: L
+
+Most tickets Plate: GLS6001, State: NY tickets: 1, total fine: $115
+Largest fine Plate: GLS6001, State: NY tickets: 1, total fine: $115
+Command: P GLS6001 NY 1105232167
+
+Plate: GLS6001, State NY, Summons 1105232167 paid
+Command: D
+
+Chain 0: 
+   Plate: HLC3177, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1133401569,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+   Plate: GER9006, State: NY, Tickets: 1, Total: $95
+      Ticket #0001: 1131610520,07/02/2018,(17) $ 95 NO STANDING-EXC. AUTH. VEHICLE
+Chain 1: 
+   Plate: HZJ8359, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1133401636,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+   Plate: HDG7076, State: NY, Tickets: 1, Total: $95
+      Ticket #0001: 1131599342,06/29/2018,(17) $ 95 NO STANDING-EXC. AUTH. VEHICLE
+Chain 2: 
+   Plate: HPC9135, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1133401594,07/02/2019,(21) $ 65 NO PARKING-STREET CLEANING
+   Plate: HZN6473, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1133401570,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+Command: V
+
+Total vehicles in database: 6
+Total tickets in database: 6
+Longest hash chain in database index number: 0 Length: 2
+Shortest hash chain in database index number: 0 Length: 2
+Total of all unpaid fines in the database: $450
+Command: P HLC3177 NY 1133401569
+
+Plate: HLC3177, State NY, Summons 1133401569 paid
+Command: D
+
+Chain 0: 
+   Plate: GER9006, State: NY, Tickets: 1, Total: $95
+      Ticket #0001: 1131610520,07/02/2018,(17) $ 95 NO STANDING-EXC. AUTH. VEHICLE
+Chain 1: 
+   Plate: HZJ8359, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1133401636,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+   Plate: HDG7076, State: NY, Tickets: 1, Total: $95
+      Ticket #0001: 1131599342,06/29/2018,(17) $ 95 NO STANDING-EXC. AUTH. VEHICLE
+Chain 2: 
+   Plate: HPC9135, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1133401594,07/02/2019,(21) $ 65 NO PARKING-STREET CLEANING
+   Plate: HZN6473, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1133401570,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+Command: V
+
+Total vehicles in database: 5
+Total tickets in database: 5
+Longest hash chain in database index number: 1 Length: 2
+Shortest hash chain in database index number: 0 Length: 1
+Total of all unpaid fines in the database: $385
+Command: L
+
+Most tickets Plate: HZN6473, State: NY tickets: 1, total fine: $65
+Largest fine Plate: HDG7076, State: NY tickets: 1, total fine: $95
+Command: P GER9006 NY 1131610520
+
+Plate: GER9006, State NY, Summons 1131610520 paid
+Command: F GLS6001 NY
+
+   Plate: GLS6001, State: NY 
+      No tickets
+Command: D
+
+Chain 1: 
+   Plate: HZJ8359, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1133401636,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+   Plate: HDG7076, State: NY, Tickets: 1, Total: $95
+      Ticket #0001: 1131599342,06/29/2018,(17) $ 95 NO STANDING-EXC. AUTH. VEHICLE
+Chain 2: 
+   Plate: HPC9135, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1133401594,07/02/2019,(21) $ 65 NO PARKING-STREET CLEANING
+   Plate: HZN6473, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1133401570,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+Command: V
+
+Total vehicles in database: 4
+Total tickets in database: 4
+Longest hash chain in database index number: 1 Length: 2
+Shortest hash chain in database index number: 1 Length: 2
+Total of all unpaid fines in the database: $290
+Command: L
+
+Most tickets Plate: HZN6473, State: NY tickets: 1, total fine: $65
+Largest fine Plate: HDG7076, State: NY tickets: 1, total fine: $95
+Command: P HDG7076 NY 1131599342
+
+Plate: HDG7076, State NY, Summons 1131599342 paid
+Command: D
+
+Chain 1: 
+   Plate: HZJ8359, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1133401636,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+Chain 2: 
+   Plate: HPC9135, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1133401594,07/02/2019,(21) $ 65 NO PARKING-STREET CLEANING
+   Plate: HZN6473, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1133401570,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+Command: V
+
+Total vehicles in database: 3
+Total tickets in database: 3
+Longest hash chain in database index number: 2 Length: 2
+Shortest hash chain in database index number: 1 Length: 1
+Total of all unpaid fines in the database: $195
+Command: L
+
+Most tickets Plate: HZN6473, State: NY tickets: 1, total fine: $65
+Largest fine Plate: HZN6473, State: NY tickets: 1, total fine: $65
+Command: P HZJ8359 NY 1133401636
+
+Plate: HZJ8359, State NY, Summons 1133401636 paid
+Command: D
+
+Chain 2: 
+   Plate: HPC9135, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1133401594,07/02/2019,(21) $ 65 NO PARKING-STREET CLEANING
+   Plate: HZN6473, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1133401570,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+Command: V
+
+Total vehicles in database: 2
+Total tickets in database: 2
+Longest hash chain in database index number: 2 Length: 2
+Shortest hash chain in database index number: 2 Length: 2
+Total of all unpaid fines in the database: $130
+Command: L
+
+Most tickets Plate: HZN6473, State: NY tickets: 1, total fine: $65
+Largest fine Plate: HZN6473, State: NY tickets: 1, total fine: $65
+Command: P HPC9135 NY 1133401594
+
+Plate: HPC9135, State NY, Summons 1133401594 paid
+Command: D
+
+Chain 2: 
+   Plate: HZN6473, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1133401570,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+Command: V
+
+Total vehicles in database: 1
+Total tickets in database: 1
+Longest hash chain in database index number: 2 Length: 1
+Shortest hash chain in database index number: 2 Length: 1
+Total of all unpaid fines in the database: $65
+Command: L
+
+Most tickets Plate: HZN6473, State: NY tickets: 1, total fine: $65
+Largest fine Plate: HZN6473, State: NY tickets: 1, total fine: $65
+Command: P HZN6473 NY 1133401570
+
+Plate: HZN6473, State NY, Summons 1133401570 paid
+Command: D
+
+Command: V
+
+Total vehicles in database: 0
+Total tickets in database: 0
+Longest hash chain in database index number: 0 Length: 0
+Shortest hash chain in database index number: 0 Length: 0
+Total of all unpaid fines in the database: $0
+Command: L
+
+Empty database
+Command: P HZJ8359 NY 1133401636
+
+Plate: HZJ8359, State NY, Summons 1133401636 not found
+Command: D
+
+Command: V
+
+Total vehicles in database: 0
+Total tickets in database: 0
+Longest hash chain in database index number: 0 Length: 0
+Shortest hash chain in database index number: 0 Length: 0
+Total of all unpaid fines in the database: $0
+Command: L
+
+Empty database
+Command: P HDG7076 NY 1131599342
+
+Plate: HDG7076, State NY, Summons 1131599342 not found
+Command: D
+
+Command: V
+
+Total vehicles in database: 0
+Total tickets in database: 0
+Longest hash chain in database index number: 0 Length: 0
+Shortest hash chain in database index number: 0 Length: 0
+Total of all unpaid fines in the database: $0
+Command: L
+
+Empty database
+Command: P HPC9135 NY 1133401594
+
+Plate: HPC9135, State NY, Summons 1133401594 not found
+Command: D
+
+Command: V
+
+Total vehicles in database: 0
+Total tickets in database: 0
+Longest hash chain in database index number: 0 Length: 0
+Shortest hash chain in database index number: 0 Length: 0
+Total of all unpaid fines in the database: $0
+Command: L
+
+Empty database
+Command: P HZN6473 NY 1133401570
+
+Plate: HZN6473, State NY, Summons 1133401570 not found
+Command: D
+
+Command: V
+
+Total vehicles in database: 0
+Total tickets in database: 0
+Longest hash chain in database index number: 0 Length: 0
+Shortest hash chain in database index number: 0 Length: 0
+Total of all unpaid fines in the database: $0
+Command: L
+
+Empty database
+Command: Q
+
+Total tickets freed: 0

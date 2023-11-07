@@ -1,0 +1,80 @@
+Command: V
+
+Total vehicles in database: 9513
+Total tickets in database: 10001
+Longest hash chain in database index number: 164 Length: 38
+Shortest hash chain in database index number: 305 Length: 10
+Total of all unpaid fines in the database: $905620
+Command: L
+
+Most tickets Plate: HAU8873, State: NY tickets: 6, total fine: $420
+Largest fine Plate: HUY7242, State: NY tickets: 5, total fine: $575
+Command: F HGZ9678 NY
+
+   Plate: HGZ9678, State: NY, Tickets: 6, Total: $540
+      Ticket #0001: 1403978293,06/02/2018,(19) $115 NO STANDING-BUS STOP
+      Ticket #0002: 1403978300,06/02/2018,(70) $ 65 REG. STICKER-EXPIRED/MISSING
+      Ticket #0003: 1429080371,05/21/2018,(19) $115 NO STANDING-BUS STOP
+      Ticket #0004: 1429082252,06/03/2018,(70) $ 65 REG. STICKER-EXPIRED/MISSING
+      Ticket #0005: 1429082264,06/04/2018,(70) $ 65 REG. STICKER-EXPIRED/MISSING
+      Ticket #0006: 1429082276,06/04/2018,(19) $115 NO STANDING-BUS STOP
+Command: F HUY7242 NY
+
+   Plate: HUY7242, State: NY, Tickets: 5, Total: $575
+      Ticket #0001: 1403576075,06/11/2018,(19) $115 NO STANDING-BUS STOP
+      Ticket #0002: 1403978270,05/29/2018,(19) $115 NO STANDING-BUS STOP
+      Ticket #0003: 1403978505,06/09/2018,(19) $115 NO STANDING-BUS STOP
+      Ticket #0004: 1429082288,06/05/2018,(19) $115 NO STANDING-BUS STOP
+      Ticket #0005: 1429082306,06/11/2018,(19) $115 NO STANDING-BUS STOP
+Command: P HGZ9678 NY 1429082252
+
+Plate: HGZ9678, State NY, Summons 1429082252 paid
+Command: V
+
+Total vehicles in database: 9513
+Total tickets in database: 10000
+Longest hash chain in database index number: 164 Length: 38
+Shortest hash chain in database index number: 305 Length: 10
+Total of all unpaid fines in the database: $905555
+Command: P HGZ9678 NY 1403978293
+
+Plate: HGZ9678, State NY, Summons 1403978293 paid
+Command: V
+
+Total vehicles in database: 9513
+Total tickets in database: 9999
+Longest hash chain in database index number: 164 Length: 38
+Shortest hash chain in database index number: 305 Length: 10
+Total of all unpaid fines in the database: $905440
+Command: P HGZ9678 NY 1429082264
+
+Plate: HGZ9678, State NY, Summons 1429082264 paid
+Command: V
+
+Total vehicles in database: 9513
+Total tickets in database: 9998
+Longest hash chain in database index number: 164 Length: 38
+Shortest hash chain in database index number: 305 Length: 10
+Total of all unpaid fines in the database: $905375
+Command: P HGZ9678 NY 1403978300
+
+Plate: HGZ9678, State NY, Summons 1403978300 paid
+Command: F HGZ9678 NY
+
+   Plate: HGZ9678, State: NY, Tickets: 2, Total: $230
+      Ticket #0001: 1429080371,05/21/2018,(19) $115 NO STANDING-BUS STOP
+      Ticket #0002: 1429082276,06/04/2018,(19) $115 NO STANDING-BUS STOP
+Command: V
+
+Total vehicles in database: 9513
+Total tickets in database: 9997
+Longest hash chain in database index number: 164 Length: 38
+Shortest hash chain in database index number: 305 Length: 10
+Total of all unpaid fines in the database: $905310
+Command: L
+
+Most tickets Plate: HAU8873, State: NY tickets: 6, total fine: $420
+Largest fine Plate: HUY7242, State: NY tickets: 5, total fine: $575
+Command: Q
+
+Total tickets freed: 9997

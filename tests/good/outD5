@@ -1,0 +1,173 @@
+Command: V
+
+Total vehicles in database: 363869
+Total tickets in database: 500000
+Longest hash chain in database index number: 7803 Length: 71
+Shortest hash chain in database index number: 3969 Length: 24
+Total of all unpaid fines in the database: $37721975
+Command: L
+
+Most tickets Plate: 2731063, State: IN tickets: 52, total fine: $4930
+Largest fine Plate: 2731063, State: IN tickets: 52, total fine: $4930
+Command: f 2731063 IN
+
+   Plate: 2731063, State: IN, Tickets: 52, Total: $4930
+      Ticket #0001: 1437587719,06/14/2018,(19) $115 NO STANDING-BUS STOP
+      Ticket #0002: 1438358921,06/19/2018,(46) $115 DOUBLE PARKING
+      Ticket #0003: 1440115485,06/21/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
+      Ticket #0004: 1441802903,07/05/2018,(40) $115 FIRE HYDRANT
+      Ticket #0005: 1441810754,06/29/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
+      Ticket #0006: 1441810766,06/29/2018,(84) $ 65 PLTFRM LFTS LWRD POS COMM VEH
+      Ticket #0007: 8476586577,07/12/2018,(82) $115 COMML PLATES-UNALTERED VEHICLE
+      Ticket #0008: 8476586590,07/12/2018,(47) $115 DOUBLE PARKING-MIDTOWN COMML
+      Ticket #0009: 8476587880,07/19/2018,(47) $115 DOUBLE PARKING-MIDTOWN COMML
+      Ticket #0010: 8476587892,07/19/2018,(82) $115 COMML PLATES-UNALTERED VEHICLE
+      Ticket #0011: 8476587958,07/19/2018,(84) $ 65 PLTFRM LFTS LWRD POS COMM VEH
+      Ticket #0012: 8476609838,07/12/2018,(84) $ 65 PLTFRM LFTS LWRD POS COMM VEH
+      Ticket #0013: 8479990030,07/17/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
+      Ticket #0014: 8480944559,07/19/2018,(47) $115 DOUBLE PARKING-MIDTOWN COMML
+      Ticket #0015: 8480944560,07/19/2018,(84) $ 65 PLTFRM LFTS LWRD POS COMM VEH
+      Ticket #0016: 8484476108,06/27/2018,(19) $115 NO STANDING-BUS STOP
+      Ticket #0017: 8484591116,07/19/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
+      Ticket #0018: 8484591128,07/19/2018,(84) $ 65 PLTFRM LFTS LWRD POS COMM VEH
+      Ticket #0019: 8485746740,07/13/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
+      Ticket #0020: 8485746752,07/13/2018,(84) $ 65 PLTFRM LFTS LWRD POS COMM VEH
+      Ticket #0021: 8486321372,06/28/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
+      Ticket #0022: 8486321384,06/28/2018,(84) $ 65 PLTFRM LFTS LWRD POS COMM VEH
+      Ticket #0023: 8495173748,07/03/2018,(47) $115 DOUBLE PARKING-MIDTOWN COMML
+      Ticket #0024: 8495173750,07/03/2018,(84) $ 65 PLTFRM LFTS LWRD POS COMM VEH
+      Ticket #0025: 8495175472,07/13/2018,(47) $115 DOUBLE PARKING-MIDTOWN COMML
+      Ticket #0026: 8495175484,07/13/2018,(84) $ 65 PLTFRM LFTS LWRD POS COMM VEH
+      Ticket #0027: 8495176348,07/17/2018,(47) $115 DOUBLE PARKING-MIDTOWN COMML
+      Ticket #0028: 8495176350,07/17/2018,(84) $ 65 PLTFRM LFTS LWRD POS COMM VEH
+      Ticket #0029: 8496445422,07/10/2018,(48) $115 BIKE LANE
+      Ticket #0030: 8496445434,07/10/2018,(84) $ 65 PLTFRM LFTS LWRD POS COMM VEH
+      Ticket #0031: 8496446165,07/20/2018,(19) $115 NO STANDING-BUS STOP
+      Ticket #0032: 8496446177,07/20/2018,(84) $ 65 PLTFRM LFTS LWRD POS COMM VEH
+      Ticket #0033: 8496877061,07/05/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
+      Ticket #0034: 8496877073,07/05/2018,(84) $ 65 PLTFRM LFTS LWRD POS COMM VEH
+      Ticket #0035: 8496878132,07/11/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
+      Ticket #0036: 8496878429,07/12/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
+      Ticket #0037: 8496878430,07/12/2018,(84) $ 65 PLTFRM LFTS LWRD POS COMM VEH
+      Ticket #0038: 8496878922,07/24/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
+      Ticket #0039: 8496878934,07/24/2018,(84) $ 65 PLTFRM LFTS LWRD POS COMM VEH
+      Ticket #0040: 8497193040,07/16/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
+      Ticket #0041: 8497193052,07/16/2018,(84) $ 65 PLTFRM LFTS LWRD POS COMM VEH
+      Ticket #0042: 8497194070,07/23/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
+      Ticket #0043: 8497194081,07/23/2018,(84) $ 65 PLTFRM LFTS LWRD POS COMM VEH
+      Ticket #0044: 8498567750,07/06/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
+      Ticket #0045: 8498946608,07/16/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
+      Ticket #0046: 8498946610,07/16/2018,(84) $ 65 PLTFRM LFTS LWRD POS COMM VEH
+      Ticket #0047: 8499142102,07/10/2018,(84) $ 65 PLTFRM LFTS LWRD POS COMM VEH
+      Ticket #0048: 8499142667,07/24/2018,(84) $ 65 PLTFRM LFTS LWRD POS COMM VEH
+      Ticket #0049: 8499142679,07/24/2018,(47) $115 DOUBLE PARKING-MIDTOWN COMML
+      Ticket #0050: 8500509673,06/27/2018,(19) $115 NO STANDING-BUS STOP
+      Ticket #0051: 8501958529,07/24/2018,(47) $115 DOUBLE PARKING-MIDTOWN COMML
+      Ticket #0052: 8501958530,07/24/2018,(84) $ 65 PLTFRM LFTS LWRD POS COMM VEH
+Command: p 2731063 IN 8496445422
+
+Plate: 2731063, State IN, Summons 8496445422 paid
+Command: v
+
+Total vehicles in database: 363869
+Total tickets in database: 499999
+Longest hash chain in database index number: 7803 Length: 71
+Shortest hash chain in database index number: 3969 Length: 24
+Total of all unpaid fines in the database: $37721860
+Command: p 2731063 IN 8496877061
+
+Plate: 2731063, State IN, Summons 8496877061 paid
+Command: v
+
+Total vehicles in database: 363869
+Total tickets in database: 499998
+Longest hash chain in database index number: 7803 Length: 71
+Shortest hash chain in database index number: 3969 Length: 24
+Total of all unpaid fines in the database: $37721745
+Command: p 2731063 IN 8480944559
+
+Plate: 2731063, State IN, Summons 8480944559 paid
+Command: v
+
+Total vehicles in database: 363869
+Total tickets in database: 499997
+Longest hash chain in database index number: 7803 Length: 71
+Shortest hash chain in database index number: 3969 Length: 24
+Total of all unpaid fines in the database: $37721630
+Command: p 2731063 IN 8499142667
+
+Plate: 2731063, State IN, Summons 8499142667 paid
+Command: v
+
+Total vehicles in database: 363869
+Total tickets in database: 499996
+Longest hash chain in database index number: 7803 Length: 71
+Shortest hash chain in database index number: 3969 Length: 24
+Total of all unpaid fines in the database: $37721565
+Command: p 2731063 IN 8497193052
+
+Plate: 2731063, State IN, Summons 8497193052 paid
+Command: v
+
+Total vehicles in database: 363869
+Total tickets in database: 499995
+Longest hash chain in database index number: 7803 Length: 71
+Shortest hash chain in database index number: 3969 Length: 24
+Total of all unpaid fines in the database: $37721500
+Command: p 2731063 IN 8486321384
+
+Plate: 2731063, State IN, Summons 8486321384 paid
+Command: v
+
+Total vehicles in database: 363869
+Total tickets in database: 499994
+Longest hash chain in database index number: 7803 Length: 71
+Shortest hash chain in database index number: 3969 Length: 24
+Total of all unpaid fines in the database: $37721435
+Command: p 2731063 IN 8496878934
+
+Plate: 2731063, State IN, Summons 8496878934 paid
+Command: v
+
+Total vehicles in database: 363869
+Total tickets in database: 499993
+Longest hash chain in database index number: 7803 Length: 71
+Shortest hash chain in database index number: 3969 Length: 24
+Total of all unpaid fines in the database: $37721370
+Command: p 2731063 IN 8495176348
+
+Plate: 2731063, State IN, Summons 8495176348 paid
+Command: v
+
+Total vehicles in database: 363869
+Total tickets in database: 499992
+Longest hash chain in database index number: 7803 Length: 71
+Shortest hash chain in database index number: 3969 Length: 24
+Total of all unpaid fines in the database: $37721255
+Command: p 2731063 IN 1437587719
+
+Plate: 2731063, State IN, Summons 1437587719 paid
+Command: v
+
+Total vehicles in database: 363869
+Total tickets in database: 499991
+Longest hash chain in database index number: 7803 Length: 71
+Shortest hash chain in database index number: 3969 Length: 24
+Total of all unpaid fines in the database: $37721140
+Command: p 2731063 IN 8476586590
+
+Plate: 2731063, State IN, Summons 8476586590 paid
+Command: l
+
+Most tickets Plate: 2028685, State: IN tickets: 43, total fine: $3755
+Largest fine Plate: 16213TC, State: NY tickets: 37, total fine: $4135
+Command: v
+
+Total vehicles in database: 363869
+Total tickets in database: 499990
+Longest hash chain in database index number: 7803 Length: 71
+Shortest hash chain in database index number: 3969 Length: 24
+Total of all unpaid fines in the database: $37721025
+Command: q
+
+Total tickets freed: 499990

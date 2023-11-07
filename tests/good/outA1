@@ -1,0 +1,45 @@
+Command: v
+
+Total vehicles in database: 9
+Total tickets in database: 11
+Longest hash chain in database index number: 0 Length: 4
+Shortest hash chain in database index number: 1 Length: 2
+Total of all unpaid fines in the database: $975
+Command: d
+
+Chain 0: 
+   Plate: HLC3177, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1133401569,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+   Plate: GER9006, State: NY, Tickets: 1, Total: $95
+      Ticket #0001: 1131610520,07/02/2018,(17) $ 95 NO STANDING-EXC. AUTH. VEHICLE
+   Plate: GTR7949, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1130964875,06/08/2018,(24) $ 65 NO PARKING-EXC. AUTH. VEHICLE
+   Plate: HXM7361, State: NY, Tickets: 1, Total: $115
+      Ticket #0001: 1121274900,06/28/2018,(46) $115 DOUBLE PARKING
+Chain 1: 
+   Plate: HZJ8359, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1133401636,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+   Plate: HDG7076, State: NY, Tickets: 1, Total: $95
+      Ticket #0001: 1131599342,06/29/2018,(17) $ 95 NO STANDING-EXC. AUTH. VEHICLE
+Chain 2: 
+   Plate: HPC9135, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1133401594,07/02/2019,(21) $ 65 NO PARKING-STREET CLEANING
+   Plate: HZN6473, State: NY, Tickets: 1, Total: $65
+      Ticket #0001: 1133401570,07/02/2018,(21) $ 65 NO PARKING-STREET CLEANING
+   Plate: GLS6001, State: NY, Tickets: 3, Total: $345
+      Ticket #0001: 1105232165,07/03/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
+      Ticket #0002: 1105232166,07/04/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
+      Ticket #0003: 1105232167,07/05/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
+Command: f GLS6001 NY
+
+   Plate: GLS6001, State: NY, Tickets: 3, Total: $345
+      Ticket #0001: 1105232165,07/03/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
+      Ticket #0002: 1105232166,07/04/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
+      Ticket #0003: 1105232167,07/05/2018,(14) $115 NO STANDING-DAY/TIME LIMITS
+Command: f GLS6001 CA
+
+   Plate: GLS6001, State: CA 
+      No tickets
+Command: q
+
+Total tickets freed: 11

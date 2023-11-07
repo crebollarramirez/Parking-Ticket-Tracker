@@ -1,0 +1,56 @@
+#!/bin/bash
+IN="in"
+OUT="out"
+GOOD="good"
+# Group A tests
+for index in {1..2}
+do
+    echo "--- Starting Group A test$index ----------"
+    rm -f $OUT/outA$index $OUT/errA$index
+    echo "Running: ../parking -s -f $IN/Fines.csv -d $IN/Tiny.csv -t3 < $IN/test$index > $OUT/outA$index 2> $OUT/errA$index" 
+    ../parking -s -f $IN/Fines.csv -d $IN/Tiny.csv -t3 < $IN/test$index > $OUT/outA$index 2> $OUT/errA$index 
+    diff $GOOD/outA$index $OUT/outA$index
+    #diff $GOOD/errA$index $OUT/errA$index
+    echo "--- Ending Group A test$index ----------"
+done
+echo "--- Starting Valgrind test 1 ----------"
+valgrind --leak-check=full --leak-resolution=med -s ../parking -s -f $IN/Fines.csv -d $IN/Tiny.csv -t3 >$OUT/outVAL1 <$IN/test2
+echo "--- Ending Valgrind test 1 ----------"
+# Group B tests
+for index in {3..4}
+do
+    echo "--- Starting Group B test$index ----------"
+    rm -f $OUT/outB$index $OUT/errB$index
+    echo "Running: ../parking -s -f $IN/Fines.csv -d $IN/Small.csv -t3 < $IN/test$index > $OUT/outB$index 2> $OUT/errB$index "
+    ../parking -s -f $IN/Fines.csv -d $IN/Small.csv -t3 < $IN/test$index > $OUT/outB$index 2> $OUT/errB$index 
+    diff $GOOD/outB$index $OUT/outB$index
+    #diff $GOOD/errB$index $OUT/errB$index
+    echo "--- Ending Group B test$index ----------"
+done
+# Group C tests just run , tests
+for index in {4..4}
+do
+    echo "--- Starting Group C test$index ----------"
+    rm -f $OUT/outC$index $OUT/errC$index
+    echo "Running: ../parking -s -f $IN/Fines.csv -d $IN/Medium.csv -t409 < $IN/test$index > $OUT/outC$index 2> $OUT/errC$index"
+    ../parking -s -f $IN/Fines.csv -d $IN/Medium.csv -t409 < $IN/test$index > $OUT/outC$index 2> $OUT/errC$index 
+    diff $GOOD/outC$index $OUT/outC$index
+    #diff $GOOD/errC$index $OUT/errC$index
+    echo "--- Ending Group C test$index ----------"
+done
+# Group D tests just run , tests
+for index in {5..5}
+do
+    echo "--- Starting Group D test$index ----------"
+    rm -f $OUT/outD$index $OUT/errD$index
+    echo "Running: ../parking -s -f $IN/Fines.csv -d $IN/Large.csv < $IN/test$index > $OUT/outD$index 2> $OUT/errD$index"
+    ../parking -s -f $IN/Fines.csv -d $IN/Large.csv < $IN/test$index > $OUT/outD$index 2> $OUT/errD$index 
+    diff $GOOD/outD$index $OUT/outD$index
+    #diff $GOOD/errD$index $OUT/errD$index
+    echo "--- Ending Group D test$index ----------"
+
+done
+echo "--- Starting Valgrind test 2----------"
+valgrind --leak-check=full --leak-resolution=med -s ../parking -s -f $IN/Fines.csv -d $IN/Medium.csv -t409 >$OUT/outVAL2 <$IN/test4
+echo "--- Ending Valgrind test 2----------"
+echo All Done

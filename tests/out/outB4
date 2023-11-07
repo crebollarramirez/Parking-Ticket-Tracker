@@ -1,0 +1,70 @@
+Command: V
+
+Total vehicles in database: 98
+Total tickets in database: 99
+Longest hash chain in database index number: 2 Length: 37
+Shortest hash chain in database index number: 0 Length: 29
+Total of all unpaid fines in the database: $8720
+Command: L
+
+Most tickets Plate: HNN8840, State: NY tickets: 2, total fine: $180
+Largest fine Plate: HBY1416, State: NY tickets: 1, total fine: $180
+Command: F HGZ9678 NY
+
+   Plate: HGZ9678, State: NY 
+      No tickets
+Command: F HUY7242 NY
+
+   Plate: HUY7242, State: NY 
+      No tickets
+Command: P HGZ9678 NY 1429082252
+
+Plate: HGZ9678, State NY, Summons 1429082252 not found
+Command: V
+
+Total vehicles in database: 98
+Total tickets in database: 99
+Longest hash chain in database index number: 2 Length: 37
+Shortest hash chain in database index number: 0 Length: 29
+Total of all unpaid fines in the database: $8720
+Command: P HGZ9678 NY 1403978293
+
+Plate: HGZ9678, State NY, Summons 1403978293 not found
+Command: V
+
+Total vehicles in database: 98
+Total tickets in database: 99
+Longest hash chain in database index number: 2 Length: 37
+Shortest hash chain in database index number: 0 Length: 29
+Total of all unpaid fines in the database: $8720
+Command: P HGZ9678 NY 1429082264
+
+Plate: HGZ9678, State NY, Summons 1429082264 not found
+Command: V
+
+Total vehicles in database: 98
+Total tickets in database: 99
+Longest hash chain in database index number: 2 Length: 37
+Shortest hash chain in database index number: 0 Length: 29
+Total of all unpaid fines in the database: $8720
+Command: P HGZ9678 NY 1403978300
+
+Plate: HGZ9678, State NY, Summons 1403978300 not found
+Command: F HGZ9678 NY
+
+   Plate: HGZ9678, State: NY 
+      No tickets
+Command: V
+
+Total vehicles in database: 98
+Total tickets in database: 99
+Longest hash chain in database index number: 2 Length: 37
+Shortest hash chain in database index number: 0 Length: 29
+Total of all unpaid fines in the database: $8720
+Command: L
+
+Most tickets Plate: HNN8840, State: NY tickets: 2, total fine: $180
+Largest fine Plate: HBY1416, State: NY tickets: 1, total fine: $180
+Command: Q
+
+Total tickets freed: 99

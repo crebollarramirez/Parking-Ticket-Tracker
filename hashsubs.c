@@ -29,8 +29,7 @@
  * return: 0 is conversion is ok, -1 otherwise
  */
 
-int
-strtoDate(char *date, time_t *ltime, char **argv)
+int strtoDate(char *date, time_t *ltime, char **argv)
 {
     struct tm tmd = {0}; /* set all members to zero */
 
@@ -66,9 +65,7 @@ strtoDate(char *date, time_t *ltime, char **argv)
  *
  * return: 0 is converted ok -1 otherwise
  */
-
-int
-strtosumid(char *summ, unsigned long long *summid, char **argv)
+int strtosumid(char *summ, unsigned long long *summid, char **argv)
 {
     char *endptr;
 
@@ -86,9 +83,7 @@ strtosumid(char *summ, unsigned long long *summid, char **argv)
     return 0;
 }
 
-/*
- *
- * hash
+/* hash
  *
  * Args:
  *  str     string to be hashed
@@ -97,8 +92,7 @@ strtosumid(char *summ, unsigned long long *summid, char **argv)
  * Operation: calculates a hash value for the string
  *        returns the hash value
  */
-uint32_t
-hash(char *str, char **argv)
+uint32_t hash(char *str, char **argv)
 {
     uint32_t hash = 0;
     uint32_t c;

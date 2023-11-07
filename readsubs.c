@@ -15,9 +15,7 @@
  * code,description,fine
  * returns 0 on success, -1 on failure
  */
- int
- read_fines(struct fine *fineTab, char *finenm, char **argv)
- {
+ int read_fines(struct fine *fineTab, char *finenm, char **argv){
     FILE *fp;
     char *buf = NULL;       /* input buffer, getline() will allocate it */
     size_t bufsz = 0;       /* size of buffer altered by getline()*/
@@ -48,6 +46,7 @@
     }
     fineTab++;
     linecnt = 1UL;
+
     /*
      * loop through the rest of the codes
      */
@@ -115,9 +114,7 @@
 /*
  * function to free fine table memory
  */
-void
-free_fines(struct fine *fineTab)
-{
+void free_fines(struct fine *fineTab){
     int i;
 
     if (fineTab == NULL)
@@ -136,10 +133,7 @@ free_fines(struct fine *fineTab)
  * summons_id,plate,state,date,code
  * returns 0 on success, -1 on failure
  */
- int
- read_tickets(struct vehicle **hashtab, uint32_t tabsz,
-        struct fine *fineTab, char *datanm, char **argv)
- {
+ int read_tickets(struct vehicle **hashtab, uint32_t tabsz, struct fine *fineTab, char *datanm, char **argv){
     FILE *fp;
     char *buf = NULL;       /* input buffer, getline() will allocate it */
     size_t bufsz = 0;       /* size of buffer altered by getline()*/
@@ -164,6 +158,7 @@ free_fines(struct fine *fineTab)
         return -1;
     }
     linecnt = 1UL;
+    
     /*
      * loop through the rest of the codes
      */

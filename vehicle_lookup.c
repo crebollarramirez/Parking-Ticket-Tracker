@@ -8,17 +8,11 @@
 #include <errno.h>
 #include "hashdb.h"
 
-//uncomment the next line when you want to use your routine
-#define MYCODE
-#ifndef MYCODE
-TODO(USING THE SOLUTION FUNCTION NOT MY CODE)
-#else
-
 /*
  * vehicle_lookup
  *          look for vehicle in the database
  *          vehicle must match both plate and state strings
- * args
+ *  args:
  *  hashtab pointer to hashtable (pointer to an array of pointers)
  *  tabsz   number of elements in the hash table
  *  plate   plate id string to be found
@@ -32,14 +26,12 @@ TODO(USING THE SOLUTION FUNCTION NOT MY CODE)
 /*
  * 	This will return a vehicle if found, will return NULL if vehicle not found.
  */
-struct vehicle *
-vehicle_lookup(struct vehicle **hashtab, uint32_t tabsz, char *plate,
-    char *state, char **argv)
-{ 
+struct vehicle *vehicle_lookup(struct vehicle **hashtab, uint32_t tabsz, char *plate, char *state, char **argv){ 
+
 	uint32_t index = hash(plate, argv) % tabsz; // getting the index for hashtable
 	struct vehicle *ptr = *(hashtab+index); // vehicle pointer
 
-	while(ptr != NULL){ // loop to look for vechicle, if not found, we will return NULL
+	while(ptr != NULL){ // loop to look for vehicle, if not found, we will return NULL
 		if ((strcmp(ptr->plate, plate) == 0) && (strcmp(ptr->state, state) == 0)){
 			return  ptr; // we found the vehicle so we return the vehicle
 		}
@@ -47,4 +39,3 @@ vehicle_lookup(struct vehicle **hashtab, uint32_t tabsz, char *plate,
 	}
 	return NULL;
 }
-#endif

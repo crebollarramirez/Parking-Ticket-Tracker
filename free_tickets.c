@@ -9,26 +9,9 @@
 #include "hashdb.h"
 
 /*
- * free_tickets
- *      tears down the database freeing all allocated memory
- *
- *      go down each hash chain and free all the vehicles and the tickets
- *      for each vehicle
- *      count the number of tickets freed in the database and
- *      print it out before returning
- *
- *      unsigned long cnt = 0UL
- *      printf("Total tickets freed: %lu\n", cnt);
- * args
- *  hashtab pointer to hashtable (pointer to an array of pointers)
- *  tabsz   number of elements in the hash table
- */
-
-/*
  *	This will free up memory for all the tickets, vehicles, and for the hash table
  */
-void
-free_tickets(struct vehicle **hashtab, uint32_t tabsz)
+void free_tickets(struct vehicle **hashtab, uint32_t tabsz)
 {
 	unsigned long int cnt = 0UL;
 	struct vehicle *ptr = *hashtab;

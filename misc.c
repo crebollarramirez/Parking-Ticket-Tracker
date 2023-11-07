@@ -13,10 +13,8 @@
  * note getopt() passes values using global varibles: optarg, optind
  * these globals are declared in unistd.h
  */
-int
-do_opts(int argc, char **argv, char **ticknm, char **finenm,
-        uint32_t *tabsz, int *silent)
-{
+int do_opts(int argc, char **argv, char **ticknm, char **finenm,
+        uint32_t *tabsz, int *silent){
     int opt;            /* option flag returned by getopt */
     int err_opt = 0;    /* set to non-zero if one of the args is bad */
     int saw_d = 0;      /* did we see the manditory -d option */
@@ -110,8 +108,6 @@ do_opts(int argc, char **argv, char **ticknm, char **finenm,
 /*
  * function for printing dropped error messages to stderr
  */
-void
-dropmsg(char *mesg, unsigned long lineno, char **argv)
-{
+void dropmsg(char *mesg, unsigned long lineno, char **argv){
     fprintf(stderr, "%s: drop line %lu, %s\n", *argv, lineno, mesg);
 }

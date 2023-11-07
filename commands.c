@@ -20,10 +20,8 @@ static void chain_cmd(char *, struct vehicle **, uint32_t, struct fine *,
  * simple command line interface just to test code
  * not a typical good interface
  */
-void
-commands(struct vehicle **htable, uint32_t tabsz, struct fine *fineTab,
-        char **argv, int silent)
-{
+void commands(struct vehicle **htable, uint32_t tabsz, struct fine *fineTab,
+        char **argv, int silent){
     char *buf = NULL;       /* input buffer, getline() will allocate it */
     size_t bufsz = 0;       /* size of buffer altered by getline()*/
 
@@ -97,8 +95,7 @@ commands(struct vehicle **htable, uint32_t tabsz, struct fine *fineTab,
  * input    plate and state from stdim
  * output   vehicle summary plus all tickets unpaid
  */
-void
-find_cmd(char *buf, struct vehicle **htable, uint32_t tabsz,
+void find_cmd(char *buf, struct vehicle **htable, uint32_t tabsz,
         struct fine *fineTab, char **argv)
 {
     char cmd[3];
@@ -129,8 +126,7 @@ find_cmd(char *buf, struct vehicle **htable, uint32_t tabsz,
  * input    plate state and summos_is from stdin
  * output   summons paid or not
  */
-void
-pay_cmd(char *buf, struct vehicle **htable, uint32_t tabsz,
+void pay_cmd(char *buf, struct vehicle **htable, uint32_t tabsz,
         struct fine *fineTab, char **argv)
 {
     char cmd[3];
@@ -157,10 +153,8 @@ pay_cmd(char *buf, struct vehicle **htable, uint32_t tabsz,
  * input    summons,plate,state,date,code from stdin
  * output   none 
  */
-void
-insert_cmd(char *buf, struct vehicle **htable, uint32_t tabsz,
-        struct fine *fineTab, char **argv)
-{
+void insert_cmd(char *buf, struct vehicle **htable, uint32_t tabsz,
+        struct fine *fineTab, char **argv){
     char cmd[3];
     int code;
     char plate[12];         /* wired in limits for sscanf safety */
@@ -175,6 +169,7 @@ insert_cmd(char *buf, struct vehicle **htable, uint32_t tabsz,
         printf("Useage: I  SUMMONS PLATE STATE DATE CODE\n");
         return;
     }
+
     /*
      * translate the code to an int
      */
@@ -192,14 +187,14 @@ insert_cmd(char *buf, struct vehicle **htable, uint32_t tabsz,
 
     return;
 }
+
 /*
  * chain_cmd debug command
  *          prints out all the vehicles and tickets on a hash chain
  * input    hash chain number 
  * output   dump of all data on a hash chain
  */
-void
-chain_cmd(char *buf, struct vehicle **htable, uint32_t tabsz,
+void chain_cmd(char *buf, struct vehicle **htable, uint32_t tabsz,
         struct fine *fineTab, char **argv)
 {
     uint32_t index;

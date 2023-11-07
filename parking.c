@@ -1,8 +1,4 @@
-/*
- * Programming assignment 3 sample solution
- * this is excessively commented for quick reads...
- *
- * Usage ./parking -c cvs_file -f fine_file
+/* Usage ./parking -c cvs_file -f fine_file
  *
  * reads the fine table up to get the fines for
  * each type of parking ticket 1-99
@@ -54,11 +50,9 @@
  *          removes vehicle from database if no more tickets left
  *  l - prints the largest number of tickets and total fines in the database
  *  v - verify ticket count and total fines are correct for each vehicle
- *  q - quit the program - free up memory (for valgrind) and exit
+ *  q - quit the program - free up memory and exit 
  */ 
-int 
-main(int argc, char **argv)
-{
+int main(int argc, char **argv){
     struct vehicle **htable;/* pointer to hash table */
     struct fine *fineTab;   /* table of fines by code 1-99 */
     uint32_t tabsz;         /* hash table size */

@@ -6,7 +6,6 @@
 #include <errno.h>
 #include "misc.h"
 #include "hashdb.h"
-#define MYCODE
 
 /*
  * split_input
@@ -15,11 +14,9 @@
  * assumes: input buffer has at least one char in it (not counting the '\0')
  * returns:  0 if all the columns were found,  -1 otherwise
  */
-int
-split_input(char *buf, char delim, int cnt, char **table, unsigned long lineno,
-            char **argv)
-{
-	/* insert your code here */
+int split_input(char *buf, char delim, int cnt, char **table, unsigned long lineno,
+            char **argv){
+
 	int colCount = 0, badField = 0, ignoreQ = 0;
 	for( int i = 0; i < cnt; i++){
 		ignoreQ = 0;
